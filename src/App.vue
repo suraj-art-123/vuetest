@@ -1,18 +1,44 @@
+
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!--<img alt="Vue logo" src="./assets/logo.png">
+   -->
+  <!--  <Test data="Hi this is suraj"/>
+   <forloop />
+   -->
+   <!--<home/> -->
+   <!--{{title}} -->
+   <EmployeesList/>
+  <!-- <Child v-on:changetitle="updateTitle($event)"/> -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
+//import Child from './components/Child.vue'
+//import HelloWorld from './components/HelloWorld.vue'
+//import Test from './components/Test.vue'
+//import forloop from './components/forloop.vue'
+//import Home from './components/Home.vue'
+import EmployeesList from './components/EmployeesList.vue'
+  export default{
   name: 'App',
   components: {
-    HelloWorld
-  }
+    //Child
+  //Test,
+  //forloop,
+  //Home,
+  EmployeesList,
+  },
+  // data()
+  //{
+    //return {title:"props tutorials"}
+  //},methods:
+  //{
+    //updateTitle(title)
+    //{
+     // this.title=title
+    //}
+  //}
 }
 </script>
 
